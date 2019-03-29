@@ -69,3 +69,8 @@
   letter-spacing: 0.2rem;
   font-size: 1.2rem;
 }
+@media (max-width: 1024px) {
+  .caseStudies {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

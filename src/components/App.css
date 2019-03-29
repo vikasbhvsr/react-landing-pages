@@ -28,3 +28,8 @@ a {
   padding-bottom: 4rem;
   text-align: center;
 }
+@media (max-width: 425px) {
+  section {
+    padding: 2rem;
+  }
+}

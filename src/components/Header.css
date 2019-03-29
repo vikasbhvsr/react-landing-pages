@@ -43,3 +43,9 @@ nav {
   width: auto;
   height: 100%;
 }
+
+@media (max-width: 425px) {
+  header {
+    padding: 1rem 2rem;
+  }
+}
