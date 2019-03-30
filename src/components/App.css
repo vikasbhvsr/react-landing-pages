@@ -28,8 +28,25 @@ a {
   padding-bottom: 4rem;
   text-align: center;
 }
+.headingOneAlt {
+  font-size: 2.5rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  color: #fff;
+}
 @media (max-width: 425px) {
   section {
     padding: 2rem;
+  }
+}
+@media (min-width: 2560px) {
+  section {
+    padding: 10rem 30rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  section {
+    padding: 8rem;
   }
 }

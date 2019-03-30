@@ -48,4 +48,7 @@ nav {
   header {
     padding: 1rem 2rem;
   }
+  .logo {
+    animation: spin 10s linear infinite;
+  }
 }

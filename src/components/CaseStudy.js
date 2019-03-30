@@ -9,42 +9,36 @@ class CaseStudy extends Component {
         <div className='caseStudies'>
           <div className='caseStudy'>
             <div className='caseStudyImage  caseOne' />
-            <div className='caseStudyLink'>
-              <a
-                className='caseStudyLink'
-                href='https://thesulfurgroup.com/portfolio/too-faced-cosmetics/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Too Faced
-              </a>
-            </div>
+            <a
+              className='caseStudyLink'
+              href='https://thesulfurgroup.com/portfolio/too-faced-cosmetics/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <span className='magicalLine'>Too Faced</span>
+            </a>
           </div>
           <div className='caseStudy'>
             <div className='caseStudyImage  caseTwo' />
-            <div className='caseStudyLink'>
-              <a
-                className='caseStudyLink'
-                href='https://thesulfurgroup.com/portfolio/neutrogena-influencer-campaign/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Neutrogena
-              </a>
-            </div>
+            <a
+              className='caseStudyLink'
+              href='https://thesulfurgroup.com/portfolio/neutrogena-influencer-campaign/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <span className='magicalLine'>Neutrogena</span>
+            </a>
           </div>{' '}
           <div className='caseStudy'>
             <div className='caseStudyImage  caseThree' />
-            <div className='caseStudyLink'>
-              <a
-                className='caseStudyLink'
-                href='https://thesulfurgroup.com/portfolio/bh-cosmetics/'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                BH Cosmetics
-              </a>
-            </div>
+            <a
+              className='caseStudyLink'
+              href='https://thesulfurgroup.com/portfolio/bh-cosmetics/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <span className='magicalLine'>BH Cosmetics</span>
+            </a>
           </div>
         </div>
       </section>
