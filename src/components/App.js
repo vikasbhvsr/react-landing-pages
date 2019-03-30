@@ -6,6 +6,7 @@ import Cards from './Cards';
 import CaseStudy from './CaseStudy';
 import Partner from './Partner';
 import Ignite from './Ignite';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <CaseStudy />
         <Partner />
         <Ignite />
+        <Footer />
       </div>
     );
   }
