@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import CTA from './CallToAction';
+import Button from './Button';
 
 class Footer extends Component {
   render() {
@@ -18,7 +18,7 @@ class Footer extends Component {
               <a href='tel:+12135452744'>Phone: (213) 545-2744</a>
             </p>
           </div>
-          <CTA ctaName='Get Lit' />
+          <Button btnStyles='' buttonLabel='Get Lit' />
         </div>
         <p>
           © Copyright 2019 -{' '}

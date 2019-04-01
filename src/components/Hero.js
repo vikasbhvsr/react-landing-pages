@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Hero.css';
-import CallToAction from './CallToAction';
+import Button from './Button';
 
 class Hero extends Component {
   render() {
@@ -15,7 +15,7 @@ class Hero extends Component {
             propel your brand from everyday essentials to vital
             swear-by-products.
           </p>
-          <CallToAction ctaName='Ignite Your Marketing' />
+          <Button buttonLabel='Ignite Your Marketing' />
         </div>
       </section>
     );

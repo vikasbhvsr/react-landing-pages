@@ -7,10 +7,12 @@ footer > p {
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 0.12rem;
-  padding-top: 3rem;
+  padding-top: 2rem;
 }
 footer > div {
-  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 2rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -19,7 +21,8 @@ footer > div {
     padding: 2rem;
   }
   footer > div {
-    flex-flow: column;
+    grid-auto-flow: row;
+    justify-content: center;
   }
 }
 @media (min-width: 1440px) {

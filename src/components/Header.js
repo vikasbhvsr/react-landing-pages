@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
-import './CallToAction';
+import Button from './Button';
 import logo from '../img/logo.png';
 
 class Header extends Component {
@@ -13,7 +13,9 @@ class Header extends Component {
               <img className='logo' src={logo} alt='The Sulfur Group' />
             </a>
           </div>
-          <div className='navRight' />
+          <div className='navRight'>
+            <Button buttonStyle='small' buttonLabel='Contact Us' />
+          </div>
         </nav>
       </header>
     );
