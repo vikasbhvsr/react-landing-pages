@@ -19,7 +19,7 @@
   overflow: hidden;
   background: url('../img/hero.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: top;
   background-size: cover;
   background-position: center center;
