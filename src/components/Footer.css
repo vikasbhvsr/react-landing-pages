@@ -1,20 +1,31 @@
 footer {
-  text-align: center;
+  display: grid;
+  grid-gap: 2rem;
   padding: 5rem;
   background: #fff000;
 }
-footer > p {
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 0.12rem;
-  padding-top: 2rem;
-}
-footer > div {
+
+.footerTop {
   display: grid;
   grid-auto-flow: column;
   grid-gap: 2rem;
   justify-content: space-between;
   align-items: center;
+}
+
+.footerTop > * > h3 {
+  padding-bottom: 1.5rem;
+}
+
+.footerTop > * > p {
+  padding-bottom: 0.5rem;
+}
+
+.footerBottom {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.12rem;
+  text-align: center;
 }
 @media (max-width: 425px) {
   footer {

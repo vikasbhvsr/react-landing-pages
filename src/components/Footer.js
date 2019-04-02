@@ -6,7 +6,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div>
+        <div className='footerTop'>
           <div className='contactUs'>
             <h3>Contact Us</h3>
             <p>
@@ -20,11 +20,13 @@ class Footer extends Component {
           </div>
           <Button btnStyles='' buttonLabel='Get Lit' />
         </div>
-        <p>
-          © Copyright 2019 -{' '}
-          <span className='magicalLine'>The Sulfur Group.</span> All Rights
-          Reserved.
-        </p>
+        <div className='footerBottom'>
+          <p>
+            © Copyright 2019 -{' '}
+            <span className='magicalLine'>The Sulfur Group.</span> All Rights
+            Reserved.
+          </p>
+        </div>
       </footer>
     );
   }
