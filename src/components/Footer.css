@@ -7,7 +7,7 @@ footer {
 
 .footerTop {
   display: grid;
-  grid-auto-flow: column;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
   justify-content: space-between;
   align-items: center;
@@ -31,9 +31,14 @@ footer {
   footer {
     padding: 2rem;
   }
-  footer > div {
-    grid-auto-flow: row;
+  .footerTop {
+    grid-template-columns: 1fr;
     justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .footerTop {
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (min-width: 1440px) {
